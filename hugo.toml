@@ -1,8 +1,7 @@
 baseURL = "https://aashishh1.github.io/Blogs/"
-languageCode = "en-us"
-title = "આશિષ Mishra"
+locale = "en-us"
+title = "Ashish Mishra"
 theme = "PaperMod"
-paginate = 10
 
 enableRobotsTXT = true
 
@@ -17,36 +16,37 @@ home = ["HTML", "RSS", "JSON"]
 
 [params]
 env = "production"
-title = "આશિષ Mishra"
+title = "Ashish Mishra"
 description = "AI Engineer sharing insights on Machine Learning, Data Science, MLOps, and Generative AI."
 keywords = [
-"AI Engineer",
-"Machine Learning",
-"Data Science",
-"Generative AI",
-"MLOps"
+    "AI Engineer",
+    "Machine Learning",
+    "Data Science",
+    "Generative AI",
+    "MLOps",
 ]
+
 author = "Ashish Mishra"
 
 defaultTheme = "auto"
 disableThemeToggle = false
 
-ShowReadingTime = false
+ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowWordCount = false
-ShowToc = false
+ShowWordCount = true
+ShowToc = true
 TocOpen = false
 
 [params.homeInfoParams]
 Title = "Hi, I'm Ashish Mishra 👋"
-Content = "AI Engineer building intelligent systems with Machine Learning and Generative AI. I write about the architecture and ideas behind modern AI."
+Content = "AI Engineer building intelligent systems with Machine Learning and Generative AI. I write about modern AI, LLMs, Data Science, MLOps, and intelligent systems."
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/aashishh1"
+url = "https://github.com/Aashishh1"
 
 [[params.socialIcons]]
 name = "linkedin"
@@ -55,7 +55,6 @@ url = "https://www.linkedin.com/in/aashishh1/"
 [[params.socialIcons]]
 name = "x"
 url = "https://x.com/imAMishra1"
-
 
 [params.cover]
 hidden = false
@@ -78,8 +77,11 @@ url = "/about/"
 weight = 20
 
 [markup]
+
 [markup.highlight]
 style = "monokai"
+
+[markup.goldmark]
 
 [markup.goldmark.renderer]
 unsafe = true
