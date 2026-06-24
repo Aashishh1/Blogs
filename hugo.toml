@@ -31,12 +31,12 @@ author = "Ashish Mishra"
 defaultTheme = "auto"
 disableThemeToggle = false
 
-ShowReadingTime = true
+ShowReadingTime = false
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowWordCount = true
+ShowWordCount = false
 ShowToc = true
 TocOpen = false
 
@@ -80,8 +80,6 @@ weight = 20
 
 [markup.highlight]
 style = "monokai"
-
-[markup.goldmark]
 
 [markup.goldmark.renderer]
 unsafe = true
