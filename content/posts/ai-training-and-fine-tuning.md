@@ -5,8 +5,11 @@ draft: false
 description: "Understand how modern AI models are trained, aligned, optimized, and deployed efficiently using Fine-Tuning, RLHF, LoRA, and Quantization."
 tags: ["Fine Tuning", "RLHF", "LoRA", "Quantization", "AI Training"]
 cover:
-  image: "/images/training-cover.jpg"
+  image: "images/training-cover.jpg"
   alt: "How AI Models Are Trained"
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 Training a large language model is only the beginning of the story. After a model learns language from billions of examples during pretraining, engineers still need to make it more useful, safer, cheaper to run, and specialized for real-world applications.
@@ -29,7 +32,7 @@ Common applications include:
 
 Fine-tuning meaningfully improves domain knowledge, produces more specialized and accurate responses, and makes a general-purpose model genuinely useful for a specific business context. The trade-off is cost — fine-tuning large models can require updating billions of parameters, which demands significant compute.
 
-![Fine-tuning adapts a pretrained model to a specific task](/images/fine-tuning-flow.png)
+![Fine-tuning adapts a pretrained model to a specific task](images/fine-tuning-flow.png)
 
 ## RLHF: Reinforcement Learning from Human Feedback
 
@@ -46,11 +49,11 @@ The process generally works like this:
 
 Consider two possible answers to the same question — one that's technically accurate but confusing, and another that's equally accurate but clear and well-structured. Human evaluators consistently choose the clearer answer, and over many rounds of this feedback, the model internalizes that helpfulness and clarity are what's actually being rewarded.
 
-![RLHF: the LLM learns from human feedback through a reward model](/images/rlhf-flow.png)
+![RLHF: the LLM learns from human feedback through a reward model](images/rlhf-flow.png)
 
 This feedback loop is a major reason modern AI assistants feel conversational, helpful, and aligned with human expectations rather than just technically correct.
 
-![The LLM learns to favor good responses over bad ones](/images/rlhf-preference.png)
+![The LLM learns to favor good responses over bad ones](images/rlhf-preference.png)
 
 ## LoRA: Low-Rank Adaptation
 
@@ -58,7 +61,7 @@ Full fine-tuning of a large model can demand enormous computing resources, since
 
 Instead of modifying billions of existing parameters, LoRA freezes the original model entirely and adds a small number of new, trainable parameters alongside it. Think of it as attaching a small, specialized component to an existing machine rather than rebuilding the machine from scratch.
 
-![LoRA freezes the original weights and trains a small adapter instead](/images/lora-adapter.png)
+![LoRA freezes the original weights and trains a small adapter instead](images/lora-adapter.png)
 
 This approach offers several practical advantages:
 
@@ -74,7 +77,7 @@ Because of these benefits, LoRA has become a standard technique across the open-
 
 Modern AI models are large by design, often requiring substantial memory and powerful GPUs just to run. Quantization addresses this by reducing the numerical precision used to store a model's weights — shrinking the model's footprint with a carefully managed trade-off in precision.
 
-![Quantization shrinks model weights from 32-bit down to 4-bit](/images/quantization.png)
+![Quantization shrinks model weights from 32-bit down to 4-bit](images/quantization.png)
 
 The practical benefits are significant:
 

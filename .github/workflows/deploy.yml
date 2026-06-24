@@ -30,7 +30,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
 
       - name: Setup GitHub Pages
@@ -45,6 +44,7 @@ jobs:
 
       - name: Build site
         env:
+          HUGO_ENV: production
           HUGO_ENVIRONMENT: production
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
         run: |

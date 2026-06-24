@@ -3,10 +3,13 @@ title: "Understanding Large Language Models: How ChatGPT Actually Works"
 date: 2026-02-05
 draft: false
 description: "A beginner-friendly guide to LLMs, Tokens, Context Windows, Temperature and Hallucinations."
-tags: ["LLM","ChatGPT","AI"]
+tags: ["LLM", "ChatGPT", "AI"]
 cover:
-  image: "/images/llm-cover.jpg"
+  image: "images/llm-cover.jpg"
   alt: "Understanding Large Language Models"
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 Large Language Models are among the most important breakthroughs in modern technology. They power the chat assistants, coding tools, and search experiences that millions of people use every day. Yet most people who use ChatGPT or similar tools have never seen what happens between typing a question and getting an answer.
@@ -19,7 +22,7 @@ At its core, an LLM is a Transformer-based neural network trained on a massive a
 
 That single idea, repeated trillions of times across an enormous dataset, is what produces a system capable of writing essays, debugging code, and holding a conversation. The model never "memorizes" answers the way a database does. Instead, it learns statistical patterns in language that let it generate plausible, often genuinely useful, continuations of any text it's given.
 
-![How an LLM predicts the next token](/images/llm-next-token.png)
+![How an LLM predicts the next token](images/llm-next-token.png)
 
 ## Context Window
 
@@ -33,7 +36,7 @@ Modern models can handle impressively large context windows, capable of processi
 
 The trade-off is computational cost. A larger context window means more text to process for every single token generated, which directly increases the time and compute required to produce a response.
 
-![Context window: focused vs random tokens](/images/context-window.png)
+![Context window: focused vs random tokens](images/context-window.png)
 
 ## Temperature
 
@@ -51,7 +54,7 @@ Temperature is a setting that controls how predictable or creative a model's out
 
 Choosing the right temperature is often a matter of matching the setting to the task — low for precision, higher for exploration.
 
-![Temperature controls the creativity of an LLM](/images/temperature-control.png)
+![Temperature controls the creativity of an LLM](images/temperature-control.png)
 
 ## Hallucinations
 
@@ -59,7 +62,7 @@ One of the most discussed limitations of LLMs is hallucination — when a model 
 
 This happens because of how these models fundamentally work: they are optimized to predict likely-sounding text, not to verify facts against a ground truth. A model has no built-in mechanism to "look something up" unless it's explicitly connected to external tools or data sources. This is precisely why techniques like Retrieval-Augmented Generation exist — to ground a model's answers in verified information rather than relying purely on what it learned during training.
 
-![Large models can still produce false output](/images/hallucination.png)
+![Large models can still produce false output](images/hallucination.png)
 
 ## Step-by-Step Reasoning
 
@@ -67,7 +70,7 @@ Some questions can't be answered correctly in a single leap — they require wor
 
 Modern LLMs can be guided to reason step by step, often called **chain-of-thought reasoning**: breaking a problem down into smaller pieces, working through each one in sequence, and only then producing a final answer. This approach noticeably improves accuracy on tasks that involve logic or multi-step calculation, because it gives the model room to "show its work" rather than jumping straight to a guess.
 
-![A model reasoning through steps to reach an answer](/images/chain-of-thought.png)
+![A model reasoning through steps to reach an answer](images/chain-of-thought.png)
 
 ## Why LLMs Matter
 

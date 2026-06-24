@@ -5,8 +5,11 @@ draft: false
 description: "Learn how Neural Networks, Embeddings, Attention and Transformers work together to power modern AI systems."
 tags: ["AI", "Neural Networks", "Transformers", "Machine Learning"]
 cover:
-  image: "/images/neural-networks-cover.jpg"
+  image: "images/neural-networks-cover.jpg"
   alt: "From Neural Networks to Transformers"
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 Every AI tool people use today — from ChatGPT to Claude and Gemini — is built on a series of breakthroughs that unfolded over several decades of research. It's tempting to jump straight into Large Language Models without understanding the building blocks underneath them, but doing so often leaves a gap in intuition that makes everything else harder to follow.
@@ -25,7 +28,7 @@ Information typically flows through three kinds of layers:
 
 Each layer extracts progressively more meaningful structure from the data passed to it. An image recognition model, for example, might first detect simple edges in early layers, then recognize basic shapes in the middle layers, and finally identify complete objects by the time information reaches the output layer.
 
-![Neural network with input, hidden, and output layers](/images/neural-networks-cover.jpg)
+![Neural network with input, hidden, and output layers](images/neural-networks-cover.jpg)
 
 ## Transfer Learning
 
@@ -33,7 +36,7 @@ Training a large neural network completely from scratch is extremely expensive, 
 
 Instead of training a brand-new model for every new problem, developers start from a model that has already been pretrained on a large, general dataset, then adapt it to their specific use case. The model reuses the broad patterns and representations it already learned, rather than relearning everything from zero.
 
-![Transferring knowledge from one trained model to a new task](/images/transfer-learning-cover.jpg)
+![Transferring knowledge from one trained model to a new task](images/transfer-learning-cover.jpg)
 
 This single idea is the backbone of how most production AI products are built today — it's dramatically faster and cheaper than training from scratch, and it consistently produces strong results even with relatively limited task-specific data.
 
@@ -47,7 +50,7 @@ Tokens can represent:
 - Parts of words (sub-word units)
 - Individual symbols and punctuation marks
 
-![Breaking text into smaller token units](/images/tokenization-cover.jpg)
+![Breaking text into smaller token units](images/tokenization-cover.jpg)
 
 This sub-word approach lets models handle language far more efficiently than processing raw characters or whole words alone — it keeps vocabularies manageable while still being able to represent rare words, typos, and even multiple languages without needing a separate token for every possible word in existence.
 
@@ -60,7 +63,7 @@ These vectors aren't arbitrary; they're learned in a way that captures semantic 
 - *Doctor* sits close to *Nurse*
 - *King* sits close to *Queen*
 
-![Converting a word into a numerical vector](/images/embeddings-cover.jpg)
+![Converting a word into a numerical vector](images/embeddings-cover.jpg)
 
 This geometric structure is what allows AI systems to understand relationships between concepts — not by memorizing definitions, but by learning how words actually behave in relation to one another across enormous amounts of text.
 
@@ -74,7 +77,7 @@ Attention helps a model determine which words in a sentence are most relevant wh
 
 Without context, "Apple" could refer to the company or the fruit. Attention allows the model to weigh the influence of nearby words like "shares" and "bought" heavily enough to correctly infer that "Apple" refers to the company here, not the fruit.
 
-![Encoder-decoder architecture connected through an attention mechanism](/images/attention-cover.jpg)
+![Encoder-decoder architecture connected through an attention mechanism](images/attention-cover.jpg)
 
 This ability to dynamically focus on the most relevant parts of the input, rather than treating every word equally, is what gives modern language models their strong contextual understanding.
 
@@ -84,7 +87,7 @@ The Transformer architecture, introduced in 2017, fundamentally changed the traj
 
 Transformers instead process all tokens in a sequence simultaneously, using attention to relate every token to every other token directly — regardless of how far apart they are in the text.
 
-![Transfer of knowledge between models, conceptually similar to how transformer layers build on each other](/images/transformers-cover.jpg)
+![Transfer of knowledge between models, conceptually similar to how transformer layers build on each other](images/transformers-cover.jpg)
 
 This architectural shift brought several major benefits:
 

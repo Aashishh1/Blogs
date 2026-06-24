@@ -84,12 +84,12 @@ draft: false
 description: "Under ~160 characters — shows up in search results and social previews."
 tags: ["AI", "Machine Learning"]
 cover:
-  image: "/images/your-cover.jpg"
+  image: "images/your-cover.jpg"
   alt: "Short description of the cover image"
 ---
 ```
 
-Cover and in-post images live in `static/images/` and are referenced as `/images/filename.jpg` — **never** with a `static/` prefix in the markdown, since Hugo serves the `static/` folder as the site root.
+Cover and in-post images live in `static/images/` and are referenced as `images/filename.jpg` — **never** with a `static/` prefix in the markdown, since Hugo serves the `static/` folder as the site root and the site is deployed under `/Blogs/`.
 
 > **Heads up on dates:** Hugo hides posts whose `date` is in the future relative to your system clock (`buildFuture = false` by default). If a post you just wrote isn't showing up on the homepage, check whether its date is set later than today — either change the date or run `hugo server -D -F` to preview future posts too.
 

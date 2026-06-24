@@ -1,12 +1,15 @@
 ---
 title: "Building Modern AI Systems: RAG, Vector Databases and AI Agents"
-date: 2026-06-27
+date: 2026-06-24
 draft: false
 description: "Learn how modern AI applications use RAG, Vector Databases, AI Agents and Diffusion Models."
 tags: ["RAG", "AI Agents", "Vector Database", "Generative AI"]
 cover:
-  image: "/images/ai-systems-cover.jpg"
+  image: "images/ai-systems-cover.jpg"
   alt: "Building Modern AI Systems"
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 The future of AI isn't just about building better individual models — it's about building better **systems** around those models. A raw language model, no matter how capable, is limited by what it learned during training and by what it can do in a single forward pass. Real-world AI products solve this by combining models with retrieval, memory, tools, and feedback loops.
@@ -19,7 +22,7 @@ One of the most effective ways to improve an AI system's accuracy is to stop rel
 
 This is the idea behind **Retrieval-Augmented Generation**. Instead of generating an answer purely from its internal knowledge, the model first retrieves relevant documents or passages from an external knowledge base, then uses that retrieved context to generate a more accurate, grounded answer.
 
-![RAG: the LLM loops between a knowledge base and the query to form an answer](/images/rag-flow.png)
+![RAG: the LLM loops between a knowledge base and the query to form an answer](images/rag-flow.png)
 
 This pattern is especially valuable for use cases involving private company data, frequently changing information, or any domain where factual precision matters more than fluency — since it directly addresses the hallucination problem by grounding responses in real, retrievable source material.
 
@@ -29,7 +32,7 @@ RAG systems need a fast, reliable way to find the most relevant pieces of inform
 
 A vector database stores embeddings: the numerical representations of text (or images, audio, and other data) that capture semantic meaning. When a query comes in, it's also converted into an embedding, and the database returns the stored items whose embeddings are mathematically closest to the query — meaning, semantically, they're the most relevant matches.
 
-![A vector database returns the top-K closest matches for a query](/images/vector-db-search.png)
+![A vector database returns the top-K closest matches for a query](images/vector-db-search.png)
 
 Some of the most widely used vector database options include:
 
@@ -44,7 +47,7 @@ This kind of semantic search is what makes RAG systems practical at scale — se
 
 While a standard LLM responds to a single prompt and stops, an **AI agent** is designed to go further: it can reason about a goal, decide on a sequence of actions, and actually execute those actions using external tools.
 
-![An AI agent loops and calls tools, search, or code as needed](/images/ai-agent-loop.png)
+![An AI agent loops and calls tools, search, or code as needed](images/ai-agent-loop.png)
 
 A typical agent can:
 
@@ -61,7 +64,7 @@ Not every modern AI breakthrough is about text. **Diffusion models** are the tec
 
 Rather than generating an image directly in one step, diffusion models work by learning to reverse a noising process — starting from pure random noise and gradually removing that noise, step by step, until a coherent, detailed image emerges.
 
-![Diffusion models go from pure noise to a clear image](/images/diffusion-model.png)
+![Diffusion models go from pure noise to a clear image](images/diffusion-model.png)
 
 This technique has become foundational across several creative and technical domains:
 
