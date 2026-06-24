@@ -18,6 +18,7 @@ home = ["HTML", "RSS", "JSON"]
 env = "production"
 title = "આશિષ Mishra"
 description = "AI Engineer sharing insights on Machine Learning, Data Science, MLOps, and Generative AI."
+
 keywords = [
     "AI Engineer",
     "Machine Learning",
@@ -26,17 +27,17 @@ keywords = [
     "MLOps",
 ]
 
-author = "Ashish Mishra"
+author = "આશિષ Mishra"
 
 defaultTheme = "auto"
 disableThemeToggle = false
 
-ShowReadingTime = false
+ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowWordCount = false
+ShowWordCount = true
 ShowToc = true
 TocOpen = false
 
@@ -62,7 +63,7 @@ hiddenInList = false
 hiddenInSingle = false
 
 [params.assets]
-favicon = "/favicon.ico"
+favicon = "favicon.ico"
 
 [[menu.main]]
 identifier = "posts"
