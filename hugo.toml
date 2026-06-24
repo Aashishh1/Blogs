@@ -1,6 +1,6 @@
 baseURL = "https://aashishh1.github.io/Blogs/"
 locale = "en-us"
-title = "Ashish Mishra"
+title = "આશિષ Mishra"
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -16,7 +16,7 @@ home = ["HTML", "RSS", "JSON"]
 
 [params]
 env = "production"
-title = "Ashish Mishra"
+title = "આશિષ Mishra"
 description = "AI Engineer sharing insights on Machine Learning, Data Science, MLOps, and Generative AI."
 keywords = [
     "AI Engineer",
