@@ -1,18 +1,18 @@
 +++
-title = "About Ashish Mishra"
+title = "About"
 date = 2026-02-05T10:00:00+05:30
 draft = false
-description = "AI engineer focused on production-grade machine learning, LLM applications, and reliable AI systems."
+description = "AI Engineer focused on building production-ready AI systems, LLM applications, and scalable machine learning solutions."
 +++
 
-I'm **Ashish Mishra**, an **AI Engineer** based in Mumbai, India.
+AI Engineer focused on building production-ready AI systems, LLM applications, and scalable machine learning solutions.
 
-I work on practical AI systems that connect machine learning, data science, and software engineering into reliable products. My focus areas include LLM applications, retrieval-augmented generation, model optimization, MLOps, and production-ready data workflows.
+I work at the intersection of machine learning, large language models, and software engineering, with a focus on building reliable and practical AI products. My interests include LLMs, Retrieval-Augmented Generation (RAG), AI Agents, MLOps, and modern data platforms.
 
-This blog is a place for clear technical notes, implementation lessons, and engineering perspectives from modern AI development.
+This blog is where I share technical insights, implementation notes, and engineering lessons from building and deploying AI systems.
 
-**Find me elsewhere:**
+**GitHub:** [github.com/aashishh1](https://github.com/aashishh1)
 
-- GitHub: [github.com/aashishh1](https://github.com/aashishh1)
-- LinkedIn: [linkedin.com/in/aashishh1](https://www.linkedin.com/in/aashishh1/)
-- X: [x.com/imAMishra1](https://x.com/imAMishra1)
+**LinkedIn:** [linkedin.com/in/aashishh1](https://www.linkedin.com/in/aashishh1/)
+
+**X:** [x.com/imAMishra1](https://x.com/imAMishra1)

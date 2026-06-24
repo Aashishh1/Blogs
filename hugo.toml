@@ -2,6 +2,7 @@ baseURL = "https://aashishh1.github.io/Blogs/"
 locale = "en-us"
 title = "આશિષ Mishra"
 theme = "PaperMod"
+copyright = "© 2026 Ashish Mishra"
 
 enableRobotsTXT = true
 
@@ -40,8 +41,8 @@ ShowToc = true
 TocOpen = false
 
 [params.homeInfoParams]
-Title = "Hi, I'm Ashish Mishra"
-Content = "AI Engineer focused on building reliable machine learning systems, LLM-powered applications, and production-ready data workflows. I write practical notes on modern AI engineering, MLOps, and intelligent software systems."
+Title = "Hi, I'm Ashish Mishra 👋"
+Content = "I build and explore AI-powered systems using Machine Learning, Large Language Models, RAG, AI Agents, and cloud-native technologies. Through this blog, I share technical insights, implementation notes, experiments, and lessons learned while building production-ready AI applications."
 
 [[params.socialIcons]]
 name = "github"
