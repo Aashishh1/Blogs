@@ -15,6 +15,9 @@ disableXML = true
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+[taxonomies]
+tag = "tags"
+
 [params]
 env = "production"
 title = "આશિષ Mishra"
@@ -37,7 +40,7 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowWordCount = false
-ShowToc = true
+ShowToc = false
 TocOpen = false
 
 [params.homeInfoParams]
