@@ -17,7 +17,7 @@ home = ["HTML", "RSS", "JSON"]
 [params]
 env = "production"
 title = "આશિષ Mishra"
-description = "AI Engineer sharing insights on Machine Learning, Data Science, MLOps, and Generative AI."
+description = "Technical notes on production AI systems, machine learning, LLM applications, data science, and MLOps."
 keywords = [
   "AI Engineer",
   "Machine Learning",
@@ -25,23 +25,23 @@ keywords = [
   "Generative AI",
   "MLOps",
 ]
-author = "આશિષ Mishra"
+author = "Ashish Mishra"
 
 defaultTheme = "auto"
 disableThemeToggle = false
 
 ShowReadingTime = true
-ShowShareButtons = true
+ShowShareButtons = false
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowWordCount = true
+ShowWordCount = false
 ShowToc = true
 TocOpen = false
 
 [params.homeInfoParams]
 Title = "Hi, I'm Ashish Mishra"
-Content = "AI Engineer building intelligent systems with Machine Learning and Generative AI. I write about modern AI, LLMs, Data Science, MLOps, and intelligent systems."
+Content = "AI Engineer focused on building reliable machine learning systems, LLM-powered applications, and production-ready data workflows. I write practical notes on modern AI engineering, MLOps, and intelligent software systems."
 
 [[params.socialIcons]]
 name = "github"

@@ -1,15 +1,15 @@
 +++
-title = "About"
+title = "About Ashish Mishra"
 date = 2026-02-05T10:00:00+05:30
 draft = false
-description = "About the author and this blog."
+description = "AI engineer focused on production-grade machine learning, LLM applications, and reliable AI systems."
 +++
 
-Hi, I'm **Ashish Mishra**.
+I'm **Ashish Mishra**, an **AI Engineer** based in Mumbai, India.
 
-I'm an **AI Engineer** from Mumbai, India, passionate about building intelligent systems and solving real-world problems using Artificial Intelligence, Machine Learning, and Data Science.
+I work on practical AI systems that connect machine learning, data science, and software engineering into reliable products. My focus areas include LLM applications, retrieval-augmented generation, model optimization, MLOps, and production-ready data workflows.
 
-This blog is where I share my work, projects, learnings, and experiences in AI, machine learning, MLOps, and emerging technologies.
+This blog is a place for clear technical notes, implementation lessons, and engineering perspectives from modern AI development.
 
 **Find me elsewhere:**
 
