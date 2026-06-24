@@ -1,0 +1,50 @@
+/* Custom overrides — keeps headings readable, not oversized */
+
+.post-content h1 {
+  font-size: 1.65rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.post-content h3 {
+  font-size: 1.2rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.post-title {
+  font-size: 1.8rem;
+}
+
+/* Images inside post content: consistent width, rounded corners, centered, with spacing */
+.post-content img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 1.6rem auto;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Cover image on single post pages */
+.post-cover img {
+  border-radius: 10px;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+/* Slightly tighter line height for body text, easier to read */
+.post-content p {
+  line-height: 1.75;
+}
+
+.post-content {
+  font-size: 1.05rem;
+}
