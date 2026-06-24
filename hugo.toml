@@ -44,8 +44,8 @@ ShowToc = false
 TocOpen = false
 
 [params.homeInfoParams]
-Title = "Hi, I'm Ashish Mishra 👋"
-Content = "I build and explore AI-powered systems using Machine Learning, Large Language Models, RAG, AI Agents, and cloud-native technologies. Through this blog, I share technical insights, implementation notes, experiments, and lessons learned while building production-ready AI applications."
+Title = "Hi, I'm Ashish Mishra"
+Content = "Welcome to my blog. I share my learnings and insights on AI, Machine Learning, LLMs, and the systems behind modern artificial intelligence."
 
 [[params.socialIcons]]
 name = "github"
